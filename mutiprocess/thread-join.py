@@ -1,0 +1,18 @@
+import threading
+import time
+
+threads = []
+print(f'Threading{threading.current_thread().name} is running')
+def target(second):
+    print(f'Threading{threading.current_thread().name} is running')
+    print(f'Threading{threading.current_thread().name} sleep {second}s')
+    time.sleep(second)
+    print(f'Threading{threading.current_thread().name} is ended')
+
+for i in [1, 5]:
+    thread = threading.Thread(target=target, args=[i])
+    threads.append(thread)
+    thread.start()
+    for thread in threads:
+        thread.join()
+print(f'Threading{threading.current_thread().name} is ended')

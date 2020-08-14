@@ -1,0 +1,25 @@
+{
+    "python.pythonPath": "/Users/liuduwei/opt/anaconda3/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.languageServer": "Microsoft",
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.snippetsPreventQuickSuggestions":true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": true,
+    "python.formatting.autopep8Path": "/Users/liuduwei/opt/anaconda3/bin/autopep8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Users/liuduwei/opt/anaconda3/bin/flake8",
+    "files.autoSave": "onFocusChange",
+    "debug.console.fontSize": 20,
+    "debug.console.fontFamily": "Meslo LG M for Powerline",
+    "debug.inlineValues": true,
+    "debug.openExplorerOnEnd": true
+}
